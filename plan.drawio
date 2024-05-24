@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-05-24T04:02:31.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6a38eKpwsyfxwfH6x42c" version="24.4.4" type="github">
+  <diagram name="Page-1" id="DBhRH-QVhc5Z27HbVbm-">
+    <mxGraphModel dx="1000" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-1" value="User" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-9" value="Login" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-11" value="User form" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="DwbfpBaTymDmn4o2UC3j-9">
+          <mxGeometry x="10" y="34" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-12" value="+ Name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DwbfpBaTymDmn4o2UC3j-11">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-13" value="+ Email:email" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DwbfpBaTymDmn4o2UC3j-11">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-14" value="+ Password: string&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DwbfpBaTymDmn4o2UC3j-11">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-15" value="Login with gmail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DwbfpBaTymDmn4o2UC3j-9">
+          <mxGeometry x="10" y="138" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-16" value="Login with github" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DwbfpBaTymDmn4o2UC3j-9">
+          <mxGeometry x="10" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-17" value="Register" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="220" width="200" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-43" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;User form&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Email: email&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Password: string&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Photo : jpg/png&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Photo : url&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Bio : Textbox&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="DwbfpBaTymDmn4o2UC3j-17">
+          <mxGeometry x="15" y="41" width="160" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.01;exitY=0.602;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.548;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DwbfpBaTymDmn4o2UC3j-1" target="DwbfpBaTymDmn4o2UC3j-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DwbfpBaTymDmn4o2UC3j-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.01;exitY=0.663;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.593;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DwbfpBaTymDmn4o2UC3j-1" target="DwbfpBaTymDmn4o2UC3j-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="761.4" y="148" as="sourcePoint" />
+            <mxPoint x="680.4" y="218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
